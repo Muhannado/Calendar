@@ -1,5 +1,4 @@
 c:\users\codevalue\documents\visual studio 2017\Projects\CalendarDemo\CalendarDemo\obj\Debug\CalendarDemo.csprojResolveAssemblyReference.cache
-c:\users\codevalue\documents\visual studio 2017\Projects\CalendarDemo\CalendarDemo\obj\Debug\MainWindow.g.cs
 c:\users\codevalue\documents\visual studio 2017\Projects\CalendarDemo\CalendarDemo\obj\Debug\Views\ShellView.g.cs
 c:\users\codevalue\documents\visual studio 2017\Projects\CalendarDemo\CalendarDemo\obj\Debug\App.g.cs
 c:\users\codevalue\documents\visual studio 2017\Projects\CalendarDemo\CalendarDemo\obj\Debug\GeneratedInternalTypeHelper.g.cs
@@ -27,7 +26,6 @@ c:\users\codevalue\documents\visual studio 2017\Projects\CalendarDemo\CalendarDe
 c:\users\codevalue\documents\visual studio 2017\Projects\CalendarDemo\CalendarDemo\bin\Debug\System.Reactive.PlatformServices.xml
 c:\users\codevalue\documents\visual studio 2017\Projects\CalendarDemo\CalendarDemo\bin\Debug\System.Reactive.Windows.Threading.xml
 c:\users\codevalue\documents\visual studio 2017\Projects\CalendarDemo\CalendarDemo\obj\Debug\Views\CalendarView.g.cs
-c:\users\codevalue\documents\visual studio 2017\Projects\CalendarDemo\CalendarDemo\obj\Debug\MainWindow.baml
 c:\users\codevalue\documents\visual studio 2017\Projects\CalendarDemo\CalendarDemo\obj\Debug\Views\CalendarView.baml
 c:\users\codevalue\documents\visual studio 2017\Projects\CalendarDemo\CalendarDemo\obj\Debug\Views\ShellView.baml
 c:\users\codevalue\documents\visual studio 2017\Projects\CalendarDemo\CalendarDemo\obj\Debug\CalendarDemo.g.resources
