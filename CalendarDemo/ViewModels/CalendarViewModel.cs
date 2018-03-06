@@ -40,7 +40,7 @@ namespace CalendarDemo.ViewModels
             CalendarItems = new ObservableCollection<CalendarItemViewModel>(calendarItems);
         }
 
-        public void EditCalendarItemAsync(CalendarItemEventArgs eventArgs)
+        public void EditCalendarItem(CalendarItemEventArgs eventArgs)
         {
             var message = new StringBuilder();
             if (eventArgs.IsNewItem)
@@ -59,7 +59,7 @@ namespace CalendarDemo.ViewModels
             }
         }
 
-        public void UpdateCalendarItemAsync(UpdateCalendarItemEventArgs eventArgs)
+        public void UpdateCalendarItem(UpdateCalendarItemEventArgs eventArgs)
         {
             if (!(eventArgs.UpdatedCalendarItem is CalendarItemViewModel draggedCalendarItem))
                 return;

@@ -38,7 +38,7 @@
                                  LedgerItemDataTemplateSelector="{StaticResource LedgerItemDataTemplateSelector}"
                                  CalendarItemTemplateSelector="{StaticResource CalendarItemDataTemplateSelector}"
                                  WeekViewHeaderItemTemplateSelector="{StaticResource HeaderItemDataTemplateSelector}"
-                                 cal:Message.Attach="[Event OpenCalendarItemEditor] = [Action EditCalendarItemAsync($eventArgs)]; [Event UpdateCalendarItem] = [Action UpdateCalendarItemAsync($eventArgs)]"
+                                 cal:Message.Attach="[Event OpenCalendarItemEditor] = [Action EditCalendarItem($eventArgs)]; [Event UpdateCalendarItem] = [Action UpdateCalendarItem($eventArgs)]"
                                  />
     </Grid>
 </UserControl>
