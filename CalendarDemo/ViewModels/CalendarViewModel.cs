@@ -45,9 +45,9 @@ namespace CalendarDemo.ViewModels
             var message = new StringBuilder();
             if (eventArgs.IsNewItem)
             {
-                message.AppendLine("New Calendar Item:");
-                message.AppendLine($"{eventArgs.StartTime}");
-                message.AppendLine($"{eventArgs.EndTime}");
+                var calendarItemViewModel =
+                    new CalendarItemViewModel("New Item", eventArgs.StartTime, eventArgs.EndTime);
+                CalendarItems.Add(calendarItemViewModel);
             }
             else
             {
@@ -55,20 +55,16 @@ namespace CalendarDemo.ViewModels
                 message.AppendLine($"{eventArgs.CalendarItem.DisplayName}");
                 message.AppendLine($"{eventArgs.CalendarItem.StartTime}");
                 message.AppendLine($"{eventArgs.CalendarItem.EndTime}");
+                MessageBox.Show(message.ToString());
             }
-            MessageBox.Show(message.ToString());
         }
 
         public void UpdateCalendarItemAsync(UpdateCalendarItemEventArgs eventArgs)
         {
             if (!(eventArgs.UpdatedCalendarItem is CalendarItemViewModel draggedCalendarItem))
                 return;
-            var message = new StringBuilder();
-            message.AppendLine("Updated Calendar Item:");
-            message.AppendLine($"{draggedCalendarItem.DisplayName}");
-            message.AppendLine($"{draggedCalendarItem.StartTime}");
-            message.AppendLine($"{draggedCalendarItem.EndTime}");
-            MessageBox.Show(message.ToString());
+            CalendarItems.Remove(draggedCalendarItem);
+            CalendarItems.Add(draggedCalendarItem);
         }
 
 
